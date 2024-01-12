@@ -9,3 +9,4 @@ class TransactionType(Enum):
     ALCOHOL = 6
     PERSONAL_CARE = 7
     MISC = 8
+    UNCLASSIFIED = 9

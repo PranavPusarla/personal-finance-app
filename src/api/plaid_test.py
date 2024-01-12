@@ -2,7 +2,8 @@ import plaid
 from plaid.api import plaid_api
 from plaid.model.transactions_get_request import TransactionsGetRequest
 from datetime import datetime
-import pickle
+
+from src.models.Transaction import Transaction
 
 client_id = ""
 client_secret = ""
